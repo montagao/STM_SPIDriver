@@ -44,6 +44,9 @@ int main(void)
 	/* Enable appropriate peripheral clocks */
 	__SYSCFG_CLK_ENABLE();
 	__GPIOC_CLK_ENABLE();
+	ss
+		ss
+
 
 	GPIO_InitTypeDef GPIO_InitStruct = {
 			.Pin = GPIO_PIN_9 | GPIO_PIN_8,
